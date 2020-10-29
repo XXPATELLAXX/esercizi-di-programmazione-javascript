@@ -17,3 +17,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var gatti = 10
+var gattixfila = 3
+
+var file = Math.ceil(gatti/gattixfila)
+console.log(file)
+
+var calcolaresto = file - 1
+var resto = gatti-(calcolaresto * gattixfila)
+console.log(resto)
