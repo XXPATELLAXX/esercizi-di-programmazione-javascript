@@ -12,3 +12,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var Input = 12560
+var ore = Math.floor(Input/3600)
+var minuti = Math.floor((Input-(ore*3600))/60)
+var secondi = Math.round(Input-((ore*3600)+(minuti*60)))
